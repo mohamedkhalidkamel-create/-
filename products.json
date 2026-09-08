@@ -1,0 +1,252 @@
+[
+  {
+    "id": "1_skincare/a_cleansers/Garnier_Micellar_Water_150EGP.jpg",
+    "name": "Garnier Micellar Water",
+    "price": 150,
+    "image": "1_skincare/a_cleansers/Garnier_Micellar_Water_150EGP.jpg",
+    "category": "1_skincare",
+    "categoryLabel": "العناية بالبشرة",
+    "subcategory": "a_cleansers",
+    "subcategoryLabel": "منظفات وغسول"
+  },
+  {
+    "id": "1_skincare/b_moisturizers/Cerave_Moisturizing_Cream_480EGP.jpg",
+    "name": "Cerave Moisturizing Cream",
+    "price": 480,
+    "image": "1_skincare/b_moisturizers/Cerave_Moisturizing_Cream_480EGP.jpg",
+    "category": "1_skincare",
+    "categoryLabel": "العناية بالبشرة",
+    "subcategory": "b_moisturizers",
+    "subcategoryLabel": "مرطبات وزيوت"
+  },
+  {
+    "id": "1_skincare/b_moisturizers/Nivea_Soft_Cream_120EGP.jpg",
+    "name": "Nivea Soft Cream",
+    "price": 120,
+    "image": "1_skincare/b_moisturizers/Nivea_Soft_Cream_120EGP.jpg",
+    "category": "1_skincare",
+    "categoryLabel": "العناية بالبشرة",
+    "subcategory": "b_moisturizers",
+    "subcategoryLabel": "مرطبات وزيوت"
+  },
+  {
+    "id": "1_skincare/c_serums/The_Ordinary_Niacinamide_350EGP.jpg",
+    "name": "The Ordinary Niacinamide",
+    "price": 350,
+    "image": "1_skincare/c_serums/The_Ordinary_Niacinamide_350EGP.jpg",
+    "category": "1_skincare",
+    "categoryLabel": "العناية بالبشرة",
+    "subcategory": "c_serums",
+    "subcategoryLabel": "سيروم ومعالجات"
+  },
+  {
+    "id": "1_skincare/d_sunscreen/La_Roche_Posay_Anthelios_650EGP.jpg",
+    "name": "La Roche Posay Anthelios",
+    "price": 650,
+    "image": "1_skincare/d_sunscreen/La_Roche_Posay_Anthelios_650EGP.jpg",
+    "category": "1_skincare",
+    "categoryLabel": "العناية بالبشرة",
+    "subcategory": "d_sunscreen",
+    "subcategoryLabel": "واقيات الشمس"
+  },
+  {
+    "id": "1_skincare/e_masks/Freeman_Clay_Mask_180EGP.jpg",
+    "name": "Freeman Clay Mask",
+    "price": 180,
+    "image": "1_skincare/e_masks/Freeman_Clay_Mask_180EGP.jpg",
+    "category": "1_skincare",
+    "categoryLabel": "العناية بالبشرة",
+    "subcategory": "e_masks",
+    "subcategoryLabel": "أقنعة وماسكات"
+  },
+  {
+    "id": "1_skincare/f_eye_lip/Vaseline_Lip_Therapy_90EGP.jpg",
+    "name": "Vaseline Lip Therapy",
+    "price": 90,
+    "image": "1_skincare/f_eye_lip/Vaseline_Lip_Therapy_90EGP.jpg",
+    "category": "1_skincare",
+    "categoryLabel": "العناية بالبشرة",
+    "subcategory": "f_eye_lip",
+    "subcategoryLabel": "العناية بالعين والشفاة"
+  },
+  {
+    "id": "2_makeup/a_face/Maybelline_Fit_Me_Foundation_380EGP.jpg",
+    "name": "Maybelline Fit Me Foundation",
+    "price": 380,
+    "image": "2_makeup/a_face/Maybelline_Fit_Me_Foundation_380EGP.jpg",
+    "category": "2_makeup",
+    "categoryLabel": "المكياج",
+    "subcategory": "a_face",
+    "subcategoryLabel": "الوجه"
+  },
+  {
+    "id": "2_makeup/b_eyes/Essence_Lash_Princess_Mascara_150EGP.jpg",
+    "name": "Essence Lash Princess Mascara",
+    "price": 150,
+    "image": "2_makeup/b_eyes/Essence_Lash_Princess_Mascara_150EGP.jpg",
+    "category": "2_makeup",
+    "categoryLabel": "المكياج",
+    "subcategory": "b_eyes",
+    "subcategoryLabel": "العيون"
+  },
+  {
+    "id": "2_makeup/c_lips/MAC_Matte_Lipstick_650EGP.jpg",
+    "name": "MAC Matte Lipstick",
+    "price": 650,
+    "image": "2_makeup/c_lips/MAC_Matte_Lipstick_650EGP.jpg",
+    "category": "2_makeup",
+    "categoryLabel": "المكياج",
+    "subcategory": "c_lips",
+    "subcategoryLabel": "الشفاه"
+  },
+  {
+    "id": "2_makeup/d_palettes/Huda_Beauty_Eyeshadow_Palette_1200EGP.jpg",
+    "name": "Huda Beauty Eyeshadow Palette",
+    "price": 1200,
+    "image": "2_makeup/d_palettes/Huda_Beauty_Eyeshadow_Palette_1200EGP.jpg",
+    "category": "2_makeup",
+    "categoryLabel": "المكياج",
+    "subcategory": "d_palettes",
+    "subcategoryLabel": "مجموعات وباليتات"
+  },
+  {
+    "id": "3_haircare/a_basics/Head_Shoulders_Shampoo_140EGP.jpg",
+    "name": "Head Shoulders Shampoo",
+    "price": 140,
+    "image": "3_haircare/a_basics/Head_Shoulders_Shampoo_140EGP.jpg",
+    "category": "3_haircare",
+    "categoryLabel": "العناية بالشعر",
+    "subcategory": "a_basics",
+    "subcategoryLabel": "الأساسيات"
+  },
+  {
+    "id": "3_haircare/b_hydration/Tresemme_Hair_Mask_220EGP.jpg",
+    "name": "Tresemme Hair Mask",
+    "price": 220,
+    "image": "3_haircare/b_hydration/Tresemme_Hair_Mask_220EGP.jpg",
+    "category": "3_haircare",
+    "categoryLabel": "العناية بالشعر",
+    "subcategory": "b_hydration",
+    "subcategoryLabel": "العناية والترطيب"
+  },
+  {
+    "id": "3_haircare/c_styling/Gatsby_Styling_Wax_160EGP.jpg",
+    "name": "Gatsby Styling Wax",
+    "price": 160,
+    "image": "3_haircare/c_styling/Gatsby_Styling_Wax_160EGP.jpg",
+    "category": "3_haircare",
+    "categoryLabel": "العناية بالشعر",
+    "subcategory": "c_styling",
+    "subcategoryLabel": "التصفيف والمعالجة"
+  },
+  {
+    "id": "4_bodycare/a_wash/Dove_Body_Wash_130EGP.jpg",
+    "name": "Dove Body Wash",
+    "price": 130,
+    "image": "4_bodycare/a_wash/Dove_Body_Wash_130EGP.jpg",
+    "category": "4_bodycare",
+    "categoryLabel": "العناية بالجسم",
+    "subcategory": "a_wash",
+    "subcategoryLabel": "صابون وغسول الجسم"
+  },
+  {
+    "id": "4_bodycare/b_scrubs/Tree_Hut_Sugar_Scrub_300EGP.jpg",
+    "name": "Tree Hut Sugar Scrub",
+    "price": 300,
+    "image": "4_bodycare/b_scrubs/Tree_Hut_Sugar_Scrub_300EGP.jpg",
+    "category": "4_bodycare",
+    "categoryLabel": "العناية بالجسم",
+    "subcategory": "b_scrubs",
+    "subcategoryLabel": "مقشرات الجسم"
+  },
+  {
+    "id": "4_bodycare/c_moisturizers/Nivea_Body_Lotion_140EGP.jpg",
+    "name": "Nivea Body Lotion",
+    "price": 140,
+    "image": "4_bodycare/c_moisturizers/Nivea_Body_Lotion_140EGP.jpg",
+    "category": "4_bodycare",
+    "categoryLabel": "العناية بالجسم",
+    "subcategory": "c_moisturizers",
+    "subcategoryLabel": "ترطيب الجسم"
+  },
+  {
+    "id": "5_fragrances/a_perfumes/Zara_Femme_EDP_450EGP.jpg",
+    "name": "Zara Femme EDP",
+    "price": 450,
+    "image": "5_fragrances/a_perfumes/Zara_Femme_EDP_450EGP.jpg",
+    "category": "5_fragrances",
+    "categoryLabel": "العطور",
+    "subcategory": "a_perfumes",
+    "subcategoryLabel": "عطور"
+  },
+  {
+    "id": "5_fragrances/b_mists/Bath_Body_Works_Mist_280EGP.jpg",
+    "name": "Bath Body Works Mist",
+    "price": 280,
+    "image": "5_fragrances/b_mists/Bath_Body_Works_Mist_280EGP.jpg",
+    "category": "5_fragrances",
+    "categoryLabel": "العطور",
+    "subcategory": "b_mists",
+    "subcategoryLabel": "معطرات الجسم والشعر"
+  },
+  {
+    "id": "5_fragrances/c_essential_oils/Lavender_Essential_Oil_180EGP.jpg",
+    "name": "Lavender Essential Oil",
+    "price": 180,
+    "image": "5_fragrances/c_essential_oils/Lavender_Essential_Oil_180EGP.jpg",
+    "category": "5_fragrances",
+    "categoryLabel": "العطور",
+    "subcategory": "c_essential_oils",
+    "subcategoryLabel": "زيوت عطرية"
+  },
+  {
+    "id": "6_tools/a_brushes/Makeup_Brush_Set_350EGP.jpg",
+    "name": "Makeup Brush Set",
+    "price": 350,
+    "image": "6_tools/a_brushes/Makeup_Brush_Set_350EGP.jpg",
+    "category": "6_tools",
+    "categoryLabel": "الأدوات والإكسسوارات",
+    "subcategory": "a_brushes",
+    "subcategoryLabel": "فرش وإسفنجات"
+  },
+  {
+    "id": "6_tools/b_skincare_tools/Jade_Face_Roller_220EGP.jpg",
+    "name": "Jade Face Roller",
+    "price": 220,
+    "image": "6_tools/b_skincare_tools/Jade_Face_Roller_220EGP.jpg",
+    "category": "6_tools",
+    "categoryLabel": "الأدوات والإكسسوارات",
+    "subcategory": "b_skincare_tools",
+    "subcategoryLabel": "أدوات البشرة"
+  },
+  {
+    "id": "6_tools/c_hair_tools/Hair_Straightener_Brush_500EGP.jpg",
+    "name": "Hair Straightener Brush",
+    "price": 500,
+    "image": "6_tools/c_hair_tools/Hair_Straightener_Brush_500EGP.jpg",
+    "category": "6_tools",
+    "categoryLabel": "الأدوات والإكسسوارات",
+    "subcategory": "c_hair_tools",
+    "subcategoryLabel": "أدوات الشعر"
+  },
+  {
+    "id": "7_offers/a_bundles/Skincare_Starter_Bundle_899EGP.jpg",
+    "name": "Skincare Starter Bundle",
+    "price": 899,
+    "image": "7_offers/a_bundles/Skincare_Starter_Bundle_899EGP.jpg",
+    "category": "7_offers",
+    "categoryLabel": "العروض والباقات",
+    "subcategory": "a_bundles",
+    "subcategoryLabel": "مجموعات العناية"
+  },
+  {
+    "id": "7_offers/b_discounts/Summer_Fragrance_Set_599EGP.jpg",
+    "name": "Summer Fragrance Set",
+    "price": 599,
+    "image": "7_offers/b_discounts/Summer_Fragrance_Set_599EGP.jpg",
+    "category": "7_offers",
+    "categoryLabel": "العروض والباقات",
+    "subcategory": "b_discounts",
+    "subcategoryLabel": "تخفيضات خاصة"
+  }
+]

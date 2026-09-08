@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lumé — متجر مستحضرات التجميل والعناية</title>
+<meta name="description" content="تسوقي منتجات العناية بالبشرة والمكياج والعطور، واطلبي مباشرة عبر واتساب." />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-bar">
+    <a href="#" class="brand">
+      <img src="img/logo.png" alt="Lumé" />
+    </a>
+
+    <div class="header-actions">
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="ابحثي عن منتج..." />
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </div>
+
+      <button class="cart-btn" id="openCartBtn">
+        <span>السلة</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container">
+    <nav class="category-nav" id="categoryNav" aria-label="الفئات">
+      <button class="cat-pill active" data-category="all">الكل</button>
+      <!-- category pills injected here -->
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1>جمالك يبدأ من هنا</h1>
+      <p>تشكيلة مختارة من منتجات العناية بالبشرة والمكياج والعطور، بأسعار واضحة وطلب سريع مباشرة على واتساب دون أي تسجيل أو حساب.</p>
+      <div class="hero-actions">
+        <a href="#shop" class="btn btn-primary">تسوقي الآن</a>
+        <a href="#" class="btn btn-outline" id="heroWhatsapp">تواصلي معنا</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+        <path d="M9 2h6v3l1.5 2.5A3 3 0 0 1 17 9.5V20a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V9.5a3 3 0 0 1 .5-2L9 5V2Z"></path>
+        <path d="M7 12h10"></path>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<main class="container" id="shop">
+  <div class="filters-row">
+    <h2>المنتجات</h2>
+    <div style="display:flex; align-items:center; gap:14px;">
+      <span class="results-meta" id="resultsMeta"></span>
+      <select class="sort-select" id="sortSelect">
+        <option value="default">الترتيب الافتراضي</option>
+        <option value="price-asc">السعر: من الأقل للأعلى</option>
+        <option value="price-desc">السعر: من الأعلى للأقل</option>
+        <option value="name-asc">الاسم: أ - ي</option>
+      </select>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="product-grid" id="productGrid">
+      <!-- product cards injected here -->
+    </div>
+    <div class="empty-state" id="emptyState" hidden>
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="11" cy="11" r="7"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <p>لا توجد منتجات مطابقة لبحثك.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="img/logo.png" alt="Lumé" />
+      <span>© 2026 Lumé — جميع الحقوق محفوظة</span>
+    </div>
+    <div class="footer-brand">
+      <span>التوصيل داخل جميع المحافظات — الدفع عند الاستلام</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp button -->
+<a class="whatsapp-float" id="floatWhatsapp" href="#" aria-label="تواصل عبر واتساب">
+  <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16.02 3C9.4 3 4 8.4 4 15.02c0 2.35.63 4.55 1.73 6.45L4 29l7.73-1.68a11.9 11.9 0 0 0 4.29.8h.01C22.65 28.12 28 22.72 28 16.1 28 9.47 22.65 4.07 16.02 4.07V3Zm0 22.5h-.01a9.6 9.6 0 0 1-4.88-1.34l-.35-.21-4.6 1 1.02-4.48-.23-.36a9.5 9.5 0 0 1-1.46-5.09c0-5.27 4.3-9.56 9.58-9.56 2.56 0 4.96 1 6.77 2.8a9.47 9.47 0 0 1 2.8 6.77c0 5.27-4.3 9.47-8.64 9.47Zm5.24-7.12c-.29-.14-1.7-.84-1.96-.93-.26-.1-.46-.14-.65.14-.19.28-.75.93-.92 1.12-.17.19-.34.21-.62.07-.29-.14-1.2-.44-2.29-1.4-.85-.75-1.42-1.68-1.59-1.96-.17-.28-.02-.44.13-.58.13-.13.29-.34.43-.51.14-.17.19-.28.29-.47.1-.19.05-.36-.02-.5-.07-.14-.65-1.57-.89-2.15-.23-.56-.47-.48-.65-.49h-.56c-.19 0-.5.07-.76.36-.26.28-1 .98-1 2.38 0 1.4 1.02 2.76 1.16 2.95.14.19 2.01 3.06 4.87 4.29.68.29 1.21.47 1.62.6.68.22 1.3.19 1.79.11.55-.08 1.7-.7 1.94-1.37.24-.68.24-1.26.17-1.38-.07-.12-.26-.19-.55-.33Z"/></svg>
+</a>
+
+<!-- Cart overlay + drawer -->
+<div class="overlay" id="overlay"></div>
+
+<aside class="cart-drawer" id="cartDrawer" aria-label="سلة التسوق">
+  <div class="cart-head">
+    <h2>سلة التسوق</h2>
+    <button class="icon-btn" id="closeCartBtn" aria-label="إغلاق">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <!-- cart items injected here -->
+  </div>
+  <div class="cart-foot">
+    <div class="cart-total-row">
+      <span>الإجمالي</span>
+      <span id="cartTotal">0 EGP</span>
+    </div>
+    <button class="checkout-btn" id="checkoutBtn" disabled>
+      إتمام الطلب عبر واتساب
+    </button>
+  </div>
+</aside>
+
+<!-- Checkout modal -->
+<div class="modal" id="checkoutModal">
+  <div class="modal-panel">
+    <h2>بيانات التوصيل</h2>
+    <p class="hint">هذه البيانات ستُرسل مع طلبك مباشرة على واتساب.</p>
+    <form id="checkoutForm">
+      <div class="field">
+        <label for="custName">الاسم</label>
+        <input type="text" id="custName" required autocomplete="name" />
+      </div>
+      <div class="field">
+        <label for="custPhone">رقم الهاتف</label>
+        <input type="tel" id="custPhone" required autocomplete="tel" placeholder="01xxxxxxxxx" />
+      </div>
+      <div class="field">
+        <label for="custAddress">العنوان</label>
+        <textarea id="custAddress" required autocomplete="street-address"></textarea>
+      </div>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-outline" id="cancelCheckout">رجوع</button>
+        <button type="submit" class="btn btn-primary">إرسال الطلب</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
